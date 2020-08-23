@@ -1,0 +1,138 @@
+html{
+   /* }*/
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+    /* background-image: linear-gradient(to right, #acb6e5 0%, #86fde8 100%); */
+    background:#FFA445;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 510px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 1.8em;
+}
+
+@media(min-height: 550px){}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+a:visited{
+    background-color: #C4226D;
+}
+a:active{
+    background-color: #E8E1D7;
+    color: black;
+    font-weight: 800;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.table {
+  width: 100%;  
+  border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+
+}
+.table tr:nth-child(even) {
+    background-color: #e2e5eb;
+}
+.fa-star, .fa-star-o{
+    color: #FDA908;
+}
+h1 {
+    color:black;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 800;
+    padding: 10px;
+}
+
+.paragraph{
+    padding: 5px;
+    text-align: justify;
+}
+.images {
+    text-align: center;
+    padding: 10px;
+}
+.title-item{
+    border-bottom: #E8E1D7 solid 2px ;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.position{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #133149;   
+    color: white; 
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+    margin-right: 0.5em;
+}
+.address p{
+    font-weight: 800;
+    font-style: normal;
+
+}
+.address .basic{
+    font-weight: 300;
+    font-style: normal;
+ 
+}
+.address .actors {
+
+}
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+.actions {
+    position: absolute;
+    
+    top: 1em;
+    right: 1em;
+
+}
+.close {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: #C4226D;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),  0 3px 6px rgba(0, 0, 0, 0.23);
+    font-weight: 300px;
+    display: inline-block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    padding: 10px;
+  }
